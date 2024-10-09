@@ -1,0 +1,43 @@
+body {
+  background: rgb(52, 52, 138);
+  font: normal 15pt Arial;
+}
+header {
+  color: white;
+  text-align: center;
+}
+section {
+  background: rgb(111, 135, 201);
+  border-radius: 10px;
+  padding: 15px;
+  width: 500px;
+  margin: auto;
+  box-shadow: 5px 5px 10px rgb(39, 38, 38);
+}
+footer {
+  color: white;
+  text-align: center;
+  font-style: italic;
+}
+#selsoma {
+  width: 150px;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  border-radius: 10px;
+  padding: 15px;
+  margin: auto;
+  box-shadow: 5px 5px 10px rgb(39, 38, 38);
+}
+.botao {
+  border-radius: 5px;
+  margin: auto;
+}
+#inicial {
+  border-radius: 5px;
+  margin: auto;
+  box-shadow: 5px 5px 10px rgb(39, 38, 38);
+}
+#adicionar {
+  border-radius: 5px;
+  margin: auto;
+}

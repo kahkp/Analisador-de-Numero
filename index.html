@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Analisador de numeros</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Analisador de numeros</h1>
+    </header>
+    <section>
+      <p>
+        Numero(entre 1 a 100):<input type="number" id="inicial" />
+        <input
+          type="button"
+          value="Adicionar"
+          id="adicionar"
+          onclick="adicionar()"
+        />
+      </p>
+
+      <form>
+        <select name="quadrosoma" id="selsoma" size="10"></select><br />
+     <button class="botao" onclick="finalizar()" type="button">Finalizar</button>
+      </form>
+      <p id="res"></p>
+    </section>
+    <footer>
+      <p>&copy;Curso em video</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
